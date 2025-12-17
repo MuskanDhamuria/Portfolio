@@ -36,13 +36,13 @@ export function Navigation() {
   };
 
     const handleDownloadResume = () => {
-    const link = document.createElement('a');
-    link.href = 'public/Muskan Dhamuria.pdf'; 
-    link.download = 'Muskan_Dhamuria_Resume.pdf'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+      const link = document.createElement('a');
+      link.href = "https://muskandhamuria.github.io/Portfolio/MuskanDhamuria.pdf";
+      link.download = 'Muskan_Dhamuria_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
 
 
   return (
