@@ -1,0 +1,138 @@
+import { motion } from 'motion/react';
+import { useInView } from './useInView';
+import { Github, ExternalLink } from 'lucide-react';
+
+const projects = [
+  {
+    title: 'Young Engineer Trail',
+    description: 'Developed an interactive digital trail for primary students at Science Centre Singapore using modern web technologies. Created engaging educational modules that enhance learning through interactive experiences.',
+    technologies: [],
+    github: '#',
+    demo: '#',
+    highlight: 'Led presentation after team absence, successfully managing doubled responsibilities',
+  },
+  {
+    title: 'Young Digital Fabricator Badge Program',
+    description: 'Created comprehensive online modules for a badge program that teaches students digital fabrication skills. Designed curriculum and interactive content for effective remote learning.',
+    technologies: [],
+    github: '#',
+    demo: '#',
+    highlight: 'Developed engaging online learning modules for youth',
+  },
+  {
+    title: 'Digital Literacy for Elderly',
+    description: 'Spearheaded a volunteering project focused on improving digital literacy among elderly community members. Coordinated logistics, managed stakeholders, and created meaningful learning opportunities.',
+    technologies: [],
+    github: '#',
+    demo: '#',
+    highlight: 'Successfully improved digital skills for elderly community',
+  },
+  {
+    title: 'Data Management Projects',
+    description: 'Various data analysis and management projects completed during coursework, demonstrating proficiency in database design, SQL queries, and data visualization using modern tools.',
+    technologies: ['MySQL', 'Python', 'Pandas', 'Tableau', 'Data Visualization'],
+    github: '#',
+    demo: '#',
+    highlight: 'Achieved distinction in Data Management module & serving as Teaching Assistant',
+  },
+
+  {
+    title: 'Rising Cost of Raising a Child in Singapore',
+    description: 'Analyzed the socio-financial trade-offs of parenthood in Singapore by examining childcare, education, and household expenses. The project evaluates the impact of government subsidies and highlights how financial pressures and policy awareness influence family planning.',
+    technologies: ['Tableau', 'Excel', 'Data Analysis', 'Data Visualization'],
+    github: '#',
+    demo: '#',
+    highlight: 'Insights into education choices, dual-income dynamics, and effectiveness of government support schemes',
+  },
+
+  {
+    title: 'Factors Affecting Housing Prices in Singapore',
+    description: 'Conducted an in-depth analysis of residential property prices in Singapore by examining key factors such as location, flat type, floor area, lease duration, and proximity to amenities. Leveraged data transformation and cleaning techniques to uncover trends and pricing drivers.',
+    technologies: ['Tableau', 'Power Query', 'Excel', 'Data Analysis', 'Data Visualization'],
+    github: '#',
+    demo: '#',
+    highlight: 'Identified key price determinants and visualized spatial and structural trends in Singapore’s housing market',
+  },
+
+];
+
+export function Projects() {
+  const [ref, isInView] = useInView();
+
+  return (
+    <section ref={ref} id="projects" className="py-20 px-6">
+      <div className="max-w-6xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-4xl md:text-5xl mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            Projects
+          </h2>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {projects.map((project, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                whileHover={{ scale: 1.03, y: -5 }}
+                className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-gray-700/30 hover:border-cyan-500/40 transition-all duration-300 group"
+              >
+                <h3 className="text-2xl text-gray-200 mb-3 group-hover:text-cyan-400 transition-colors">
+                  {project.title}
+                </h3>
+                
+                <p className="text-gray-300 mb-4 leading-relaxed">
+                  {project.description}
+                </p>
+
+                <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-lg p-3 mb-4">
+                  <p className="text-sm text-gray-200 italic">
+                    ✨ {project.highlight}
+                  </p>
+                </div>
+                
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.technologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-cyan-500/20 text-gray-200 px-3 py-1 rounded-full border border-cyan-400/30"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : {}}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="mt-12 text-center"
+          >
+            <p className="text-gray-300 mb-4">
+              Want to see more of my work?
+            </p>
+            <motion.a
+              href="https://github.com/MuskanDhamuria"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-lg px-8 py-4 rounded-full border border-cyan-400/30 hover:border-cyan-400/60 transition-all text-gray-200"
+            >
+              <Github className="w-5 h-5" />
+              Visit My GitHub
+            </motion.a>
+          </motion.div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
