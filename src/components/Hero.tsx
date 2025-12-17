@@ -35,7 +35,7 @@ export function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Information Systems Student • Technology Enthusiast • Leader
+            Information Systems Student | Technology Enthusiast 
           </motion.div>
 
           <motion.div
@@ -89,14 +89,6 @@ export function Hero() {
           </motion.div>
         </motion.div>
 
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-        >
-          <div className="w-1 h-16 bg-gradient-to-b from-cyan-400 to-transparent mx-auto" />
-        </motion.div>
       </div>
     </section>
   );
