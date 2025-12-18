@@ -4,20 +4,12 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Young Engineer Trail',
-    description: 'Developed an interactive digital trail for primary students at Science Centre Singapore using modern web technologies. Created engaging educational modules that enhance learning through interactive experiences.',
+    title: 'Young Engineer Trail & Young Digital Fabricator Badge Program',
+    description: 'Developed an interactive digital trail for primary students at Science Centre Singapore and comprehensive online modules for a badge program teaching digital fabrication skills. Created engaging educational content and interactive experiences to enhance learning both onsite and remotely.',
     technologies: [],
     github: '#',
     demo: '#',
-    highlight: 'Led presentation after team absence, successfully managing doubled responsibilities',
-  },
-  {
-    title: 'Young Digital Fabricator Badge Program',
-    description: 'Created comprehensive online modules for a badge program that teaches students digital fabrication skills. Designed curriculum and interactive content for effective remote learning.',
-    technologies: [],
-    github: '#',
-    demo: '#',
-    highlight: 'Developed engaging online learning modules for youth',
+    highlight: 'Led presentation after team absence, successfully managing doubled responsibilities'
   },
   {
     title: 'Digital Literacy for Elderly',
@@ -53,6 +45,30 @@ const projects = [
     demo: '#',
     highlight: 'Identified key price determinants and visualized spatial and structural trends in Singapore’s housing market',
   },
+  {
+    title: "QuestPass",
+    description: "QuestPass is a fair-access presale platform designed to combat ticket scalping and bot abuse. Instead of selling tickets, QuestPass integrates with official ticketing partners and allows fans to earn presale access by completing engagement-based quests such as music trivia, listening history verification, and mini-games. This ensures presale codes reach genuine, dedicated fans while helping artists build hype and reward loyalty.",
+    technologies: [
+      "Vue.js",
+      "Vue Router",
+      "Pinia",
+      "Bootstrap 5",
+      "Firebase Authentication",
+      "Cloud Firestore",
+      "Firebase Cloud Functions",
+      "Node.js",
+      "Spotify API",
+      "Gemini API",
+      "Jambase API",
+      "Google Maps API",
+      "EmailJS",
+      "Deezer API"
+    ],
+    github: "#",
+    demo: "#",
+    highlight: "Designed and built a scalable presale access system that restores fairness to ticketing by rewarding real fan engagement instead of speed or bots",
+
+     },
 
 ];
 
