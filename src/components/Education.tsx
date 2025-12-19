@@ -60,7 +60,7 @@ export function Education() {
                     
                     <div>
                       <h4 className="text-gray-300 mb-2">Module Distinctions:</h4>
-                      <p className="text-gray-300">Data Management, Economics and Society, Writing and Reasoning, Big Questions</p>
+                      <p className="text-gray-300">Alogorithms and Programming, Business Process Analysis and Solutioning, Data Management, Economics and Society, Writing and Reasoning, Big Questions</p>
                     </div>
                     
                     <div>

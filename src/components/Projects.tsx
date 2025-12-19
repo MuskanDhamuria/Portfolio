@@ -66,7 +66,7 @@ const projects = [
     ],
     github: "#",
     demo: "#",
-    highlight: "Designed and built a scalable presale access system that restores fairness to ticketing by rewarding real fan engagement instead of speed or bots",
+    highlight: "Achieved Distinction for the project during my Coursework",
 
      },
 
