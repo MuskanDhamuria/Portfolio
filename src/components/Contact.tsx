@@ -32,15 +32,8 @@ export function Contact() {
               <span className="text-gray-200">Email Me</span>
             </motion.a>
 
-            <motion.a
-              href="tel:+6596787615"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-lg px-8 py-4 rounded-full border border-cyan-400/30 hover:border-cyan-400/60 transition-all group"
-            >
-              <Phone className="w-5 h-5 text-cyan-400 group-hover:scale-110 transition-transform" />
-              <span className="text-gray-200">Call Me</span>
-            </motion.a>
+            
+          
 
             <motion.a
               href="https://www.linkedin.com/in/muskan-d-2a81a2331/"

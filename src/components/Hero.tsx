@@ -105,14 +105,6 @@ export function Hero() {
             </a>
 
             <a
-              href="tel:+6596787615"
-              className="flex items-center gap-2 hover:text-cyan-400 transition-colors group"
-            >
-              <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              <span>+65 96787615</span>
-            </a>
-
-            <a
               href="https://www.linkedin.com/in/muskan-d-2a81a2331/"
               target="_blank"
               rel="noopener noreferrer"
