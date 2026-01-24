@@ -50,12 +50,12 @@ export function Education() {
                     
                     <div>
                       <h4 className="text-gray-300 mb-2">Competitions:</h4>
-                      <p className="text-gray-300">Ellipsis Code# 2025, Ellipsis Tech Series 2025</p>
+                      <p className="text-gray-300">Ellipsis Code# 2025, Ellipsis Tech Series 2025, UWS STEM First Fintech Programme 2026</p>
                     </div>
                     
                     <div>
                       <h4 className="text-gray-300 mb-2">Academic Excellence:</h4>
-                      <p className="text-gray-300">Current Standing GPA: Cum Laude</p>
+                      <p className="text-gray-300">Current Standing GPA: Cum Laude (Distinction) </p>
                     </div>
                     
                     <div>
