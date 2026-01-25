@@ -91,6 +91,20 @@ const projects = [
     demo: 'https://muskandhamuria.github.io/GlobeDash/',
     highlight: 'Personal Project fuelled by my love for GeoGuesser!',
   },
+  {
+    title: 'GuessTopia',
+    description:
+      'Players have 6 attempts to guess a hidden 5 letter word receiving visual feedback for correct and absent guesses.',
+    technologies: [
+      'HTML5',
+      'CSS3',
+      'TailwindCSS',
+      'External Dictionary API (via Github Raw Content)',
+    ],
+    github: 'https://github.com/MuskanDhamuria/GuessTopia',
+    demo: 'https://muskandhamuria.github.io/GuessTopia/',
+    highlight: 'Personal Project fuelled by my love for Wordle!',
+  },
 ];
 
 export function Projects() {
