@@ -4,23 +4,15 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Young Engineer Trail & Young Digital Fabricator Badge Program',
+    title: 'URBANIX',
     description:
-      'Developed an interactive digital trail for primary students at Science Centre Singapore and comprehensive online modules for a badge program teaching digital fabrication skills. Created engaging educational content and interactive experiences to enhance learning both onsite and remotely.',
-    technologies: [],
-    github: '#',
+      'Designed and implemented the system architecture, with close team collaboration on debugging and validation. Implemented multi-objective optimization logic and Pareto frontier analysis to simulate and evaluate urban policy bundles. Developed data ingestion and transformation pipeline for Excel-based urban datasets and real-time visualization dashboards.',
+    technologies: ['Ollama','Web APIs','React.js', 'Typescript', 'Tailwind CSS','Recharts','SheetJS (XLSX)','JavaScript', 'Node.js'],
+    github: 'https://github.com/MuskanDhamuria/URBANIX',
     demo: '#',
-    highlight: 'Led presentation after team absence, successfully managing doubled responsibilities',
+    highlight: 'Most Feasible Solution & Finalist in Hack For Cities Hackathon 2026',
   },
-  {
-    title: 'Digital Literacy for Elderly',
-    description:
-      'Spearheaded a volunteering project focused on improving digital literacy among elderly community members. Coordinated logistics, managed stakeholders, and created meaningful learning opportunities.',
-    technologies: [],
-    github: '#',
-    demo: '#',
-    highlight: 'Successfully improved digital skills for elderly community',
-  },
+  
   {
     title: 'Data Management Projects',
     description:
@@ -30,16 +22,7 @@ const projects = [
     demo: '#',
     highlight: 'Achieved distinction in Data Management module & serving as Teaching Assistant',
   },
-  {
-    title: 'Rising Cost of Raising a Child in Singapore',
-    description:
-      'Analyzed the socio-financial trade-offs of parenthood in Singapore by examining childcare, education, and household expenses. The project evaluates the impact of government subsidies and highlights how financial pressures and policy awareness influence family planning.',
-    technologies: ['Tableau', 'Excel', 'Data Analysis', 'Data Visualization'],
-    github: '#',
-    demo: '#',
-    highlight:
-      'Insights into education choices, dual-income dynamics, and effectiveness of government support schemes',
-  },
+  
   {
     title: 'Factors Affecting Housing Prices in Singapore',
     description:

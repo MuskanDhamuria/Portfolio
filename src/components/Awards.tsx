@@ -3,6 +3,7 @@ import { useInView } from './useInView';
 import { Award } from 'lucide-react';
 
 const awards = [
+  'Most Feasible Solution and Finalist in Hack For Cities Hackathon-2026',
   'Bronze in Design Thinking with Robotics and Computational Thinking - 2022',
   'Bronze in Queen\'s Commonwealth Essay Competition - 2022',
   'Bronze in Singapore Math Kangaroo Competition - 2022 and 2023',
