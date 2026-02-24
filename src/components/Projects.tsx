@@ -57,37 +57,25 @@ const projects = [
     highlight: 'Achieved Distinction for the project during my Coursework',
   },
   {
-    title: 'GlobeDash',
+    title: 'PixelPop',
     description:
-      'A responsive web app that lets users explore the world and test their geography knowledge through an interactive, gamified quiz with hints, lives, and real-time filtering.',
+      'A responsive web-based Game Dashboard that showcases mini-games I have built.',
     technologies: [
       'HTML5',
       'CSS3',
       'TailwindCSS',
       'Leaflet.js',
-      'REST Countries',
-      'Open-Meteo',
-      'OpenStreetMap Nominatim',
+      'APIs',
+      'Motion',
+      'React',
+      'TypeScript',
       'GeoJSON',
     ],
-    github: 'https://github.com/MuskanDhamuria/GlobeDash',
-    demo: 'https://muskandhamuria.github.io/GlobeDash/',
-    highlight: 'Personal Project fuelled by my love for GeoGuesser!',
+    github: 'https://github.com/MuskanDhamuria/PixelPop',
+    demo: 'https://muskandhamuria.github.io/PixelPop/',
+    highlight: 'Personal Hobby',
   },
-  {
-    title: 'GuessTopia',
-    description:
-      'Players have 6 attempts to guess a hidden 5 letter word receiving visual feedback for correct and absent guesses.',
-    technologies: [
-      'HTML5',
-      'CSS3',
-      'TailwindCSS',
-      'External Dictionary API (via Github Raw Content)',
-    ],
-    github: 'https://github.com/MuskanDhamuria/GuessTopia',
-    demo: 'https://muskandhamuria.github.io/GuessTopia/',
-    highlight: 'Personal Project fuelled by my love for Wordle!',
-  },
+  
 ];
 
 export function Projects() {

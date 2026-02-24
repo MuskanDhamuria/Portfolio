@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { useInView } from './useInView';
-import MyPhoto from '/workspaces/Portfolio/src/assets/myphoto.jpg';
+import MyPhoto from '../assets/myphoto.jpg';
 
 export function About() {
   const [ref, isInView] = useInView();
