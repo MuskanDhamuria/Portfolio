@@ -75,6 +75,19 @@ const projects = [
     demo: 'https://muskandhamuria.github.io/PixelPop/',
     highlight: 'Personal Hobby',
   },
+
+  {
+    title: 'SNAPEE!',
+    description:
+      'I applied a full iterative, human-centred design process across two development cycles with my team. In Iteration 1, I conducted user research and empathy analysis to understand the challenges faced by busy students, translated insights into clear functional and usability requirements, and developed a low-fidelity prototype of the app’s UI. I then performed a heuristic evaluation to assess usability, identify design flaws, and refine navigation, layout, and feature clarity. In Iteration 2, I enhanced the prototype into a more refined design, incorporating structured feedback and usability testing through planned A/B experiments. I analysed results using the Mann–Whitney U Test to improve user flow, accessibility, and overall interaction design, while documenting design decisions and progress throughout.',
+    technologies: [
+      'Figma',
+      'Maze',
+    ],
+    github: '#',
+    demo: 'https://www.figma.com/proto/BKTOmef4hu7pEJpI0aYzRP/SNAPEE-?node-id=1367-19019&p=f&t=3U69V3hZRDAZLowT-0&scaling=min-zoom&content-scaling=fixed&page-id=221%3A826&starting-point-node-id=1367%3A19019&show-proto-sidebar=1',
+    highlight: 'Achieved Distinction for the Project during my coursework',
+  },
   
 ];
 

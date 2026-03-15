@@ -58,10 +58,10 @@ export function Education() {
                       <p className="text-gray-300">Current Standing GPA: Cum Laude (Distinction) </p>
                     </div>
                     
-                    <div>
+                    {/* <div>
                       <h4 className="text-gray-300 mb-2">Module Distinctions:</h4>
                       <p className="text-gray-300">Alogorithms and Programming, Business Process Analysis and Solutioning, Data Management, Economics and Society, Writing and Reasoning, Big Questions</p>
-                    </div>
+                    </div> */}
                     
                     <div>
                       <h4 className="text-gray-300 mb-2">Teaching Assistant:</h4>
